@@ -1,2 +1,5 @@
 (setq prelude-user-init-file load-file-name)
 (global-linum-mode t)
+(prelude-require-packages '(yasnippet))
+(require 'yasnippet)
+(yas-global-mode t)
