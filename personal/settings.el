@@ -3,3 +3,5 @@
 (prelude-require-packages '(yasnippet))
 (require 'yasnippet)
 (yas-global-mode t)
+(add-to-list 'load-path "~/.emacs.d/personal/jdee-2.4.1/lisp")
+(load "jde")
