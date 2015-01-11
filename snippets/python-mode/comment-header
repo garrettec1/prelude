@@ -1,0 +1,13 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: comment header
+# key: def
+# --
+
+#################################################################
+## $1
+#################################################################
+# Input:
+# Output:
+# Purpose:
+def ${1:functionName}():
+    pass
