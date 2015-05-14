@@ -6,3 +6,5 @@
 (add-to-list 'load-path "~/.emacs.d/personal/jdee-2.4.1/lisp")
 (load "jde")
 (global-set-key (kbd "C-z") 'compile)
+(column-number-mode)
+(global-linum-mode)
