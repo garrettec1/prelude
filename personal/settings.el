@@ -5,7 +5,7 @@
 (column-number-mode)
 (global-linum-mode)
 
-(prelude-require-packages '(yasnippet))
+(prelude-require-packages '(yasnippet java-snippets))
 (require 'yasnippet)
 
 (yas-global-mode t)
@@ -28,5 +28,24 @@
                               ("  " jde-which-method-format "  "))
                              "%[(" mode-name mode-line-process minor-mode-alist "%n" ")%] "
                              (-3 . "%p")))
-(require 'js-comint)
+(ruire 'js-comint)
 (setq inferior-js-program-command "node --interactive")
+(setq scroll-margin 5)
+
+
+;; initial window (This seems janky)
+;;(setq initial-frame-alist
+;;      '(
+;;        (width . 112) ; character
+;;        (height . 60) ; lines
+;;        ))
+
+;; default/sebsequent window
+;;(setq default-frame-alist
+;;      '(
+;;        (width . 110) ; character
+;;        (height . 58) ; lines
+;;        ))
+
+
+;;; settings.el ends here
