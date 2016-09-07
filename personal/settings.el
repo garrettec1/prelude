@@ -28,7 +28,7 @@
                               ("  " jde-which-method-format "  "))
                              "%[(" mode-name mode-line-process minor-mode-alist "%n" ")%] "
                              (-3 . "%p")))
-(ruire 'js-comint)
+(require 'js-comint)
 (setq inferior-js-program-command "node --interactive")
 (setq scroll-margin 5)
 
