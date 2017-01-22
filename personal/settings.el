@@ -5,6 +5,9 @@
 (column-number-mode)
 (global-linum-mode)
 
+;; no tabs
+(setq-default indent-tabs-mode nil)
+
 (prelude-require-packages '(yasnippet java-snippets))
 (require 'yasnippet)
 
