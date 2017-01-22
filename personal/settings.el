@@ -1,5 +1,8 @@
 (setq prelude-user-init-file load-file-name)
 
+;; Checks to see if there is a windowing system, then toggles the first frame to maximize.
+(when (window-system)  (toggle-frame-maximized))
+
 ;; enables some std modes
 (global-linum-mode t)
 (column-number-mode)
