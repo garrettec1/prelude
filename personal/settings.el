@@ -21,15 +21,15 @@
 
 
 ;; fixes JDE lin num mode credit: Geoff Shannon
-(setq jde-mode-line-format '("-" mode-line-mule-info mode-line-modified mode-line-frame-identification mode-line-buffer-identification " " global-mode-string
-                             (line-number-mode "(%l,")
-                             (column-number-mode "%c)")
-                             (jde-which-method-mode
-                              ("  " jde-which-method-format "  "))
-                             "%[(" mode-name mode-line-process minor-mode-alist "%n" ")%] "
-                             (-3 . "%p")))
-(require 'js-comint)
-(setq inferior-js-program-command "node --interactive")
+;;(setq jde-mode-line-format '("-" mode-line-mule-info mode-line-modified mode-line-frame-identification mode-line-buffer-identification " " global-mode-string
+;;                             (line-number-mode "(%l,")
+;;                             (column-number-mode "%c)")
+;;                             (jde-which-method-mode
+;;                              ("  " jde-which-method-format "  "))
+;;                             "%[(" mode-name mode-line-process minor-mode-alist "%n" ")%] "
+;;                             (-3 . "%p")))
+;;(require 'js-comint)
+;;(setq inferior-js-program-command "node --interactive")
 (setq scroll-margin 5)
 
 
